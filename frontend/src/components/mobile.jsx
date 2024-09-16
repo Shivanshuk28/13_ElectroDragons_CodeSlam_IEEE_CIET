@@ -3,7 +3,7 @@ import { Apple, PlayCircle } from 'lucide-react'
 import image0 from '/src/assets/Layer 92.png'
 import image from "/src/assets/Layer 93.png"
 import image1 from "/src/assets/Layer 94.png"
-import image2 from "src/assets/Rectangle 1.png"
+import image2 from "/src/assets/Rectangle 1.png"
 
 export default function MobileAppPromotion() {
     return (
