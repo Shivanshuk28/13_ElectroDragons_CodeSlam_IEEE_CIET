@@ -5,6 +5,8 @@ import Footer from './components/footer'
 import Hero from './components/hero'
 import MobileAppPromotion from './components/mobile'
 import Recipes from './components/recipe'
+import RestrauntMenu from './components/menu'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Recipes />
+      <RestrauntMenu />
       <DelightfulExperience />
       <MobileAppPromotion />
       <Footer />

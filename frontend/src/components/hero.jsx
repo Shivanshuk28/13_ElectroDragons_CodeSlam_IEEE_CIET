@@ -11,7 +11,7 @@ export default function Hero() {
                 <img
                     src="src/assets/Layer 69.png"
                     alt="Hero"
-                    className="object-cover max-h-screen"
+                    className="object-cover max-h-screen w-full h-full"
                 />
             </div>
 

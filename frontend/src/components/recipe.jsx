@@ -3,9 +3,9 @@ export default function Recipes() {
     return (
         <div className="relative min-h-screen bg-cover bg-center py-16" style={{ backgroundImage: "url('src/assets/Layer 78.png')" }}>
             <div className="container mx-auto px-4">
-                <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-6xl mx-auto">
-                    <div className="flex flex-col md:flex-row">
-                        <div className="md:w-1/2 pr-8">
+                <div className="max-w-6xl mx-auto">
+                    <div className="flex flex-col md:flex-row align-middle justify-center">
+                        <div className="bg-white p-8 shadow-lg md:w-1/2 pr-8 z-20">
                             <h3 className="text-2xl font-script mb-2 pacifico-regular" style={{ color: '#e7a331' }}>
                                 Special Recipes
                             </h3>
@@ -23,12 +23,12 @@ export default function Recipes() {
                                 Click here
                             </button>
                         </div>
-                        <div className="md:w-1/2 mt-8 md:mt-0 flex space-x-4">
+                        <div className="md:w-1/2 flex align-middle justify-center space-x-4 z-10">
                             <div >
                                 <img
                                     src="src/assets/Layer 83.png"
                                     alt="Shrimp and rice dish"
-                                    className="w-full h-auto rounded-lg shadow-md"
+                                    className="shadow-md -translate-x-7 translate-y-4"
                                 />
                             </div>
 
