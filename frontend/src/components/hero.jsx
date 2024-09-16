@@ -1,4 +1,4 @@
-
+import image from "/src/assets/Layer 69.png"
 // import { Phone, Clock, Facebook, Twitter, Pinterest, Instagram, Youtube } from 'lucide-react'
 
 import Header from "./header";
@@ -9,7 +9,7 @@ export default function Hero() {
             <Header />
             <div className="absolute inset-0 z-0 h-screen">
                 <img
-                    src="src/assets/Layer 69.png"
+                    src={image}
                     alt="Hero"
                     className="object-cover max-h-screen w-full h-full"
                 />

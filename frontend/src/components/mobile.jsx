@@ -1,5 +1,7 @@
 import React from 'react'
 import { Apple, PlayCircle } from 'lucide-react'
+import image from "/src/assets/Layer 93.png"
+import image1 from "/src/assets/Layer 94.png"
 
 export default function MobileAppPromotion() {
     return (
@@ -19,10 +21,10 @@ export default function MobileAppPromotion() {
                     <p className="text-xl mb-8 font-serif">IS AVAILABLE IN EVERY OS PLATFORM</p>
                     <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <button className="flex items-center justify-center text-white px-6 py-3 rounded-full hover:bg-gray-800 transition duration-300">
-                            <img src="/src/assets/Layer 93.png" alt="" />
+                            <img src={image} alt="" />
                         </button>
                         <button className="flex items-center justify-center text-white px-6 py-3 rounded-full hover:bg-gray-800 transition duration-300">
-                        <img src="/src/assets/Layer 94.png" alt="" />
+                        <img src={image1} alt="" />
 
                         </button>
                     </div>

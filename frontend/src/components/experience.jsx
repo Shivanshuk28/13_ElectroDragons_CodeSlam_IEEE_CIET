@@ -1,13 +1,22 @@
+import image from "/src/assets/Layer 74.png"
+import image2 from "/src/assets/Layer 75.png"
+import image3 from "/src/assets/Layer 77.png"
+import image4 from "/src/assets/Layer 80.png"
+import image5 from "/src/assets/Layer 84.png"
+import image6 from "/src/assets/Layer 85.png"
+import image7 from "/src/assets/Layer 86.png"
+import image8 from "/src/assets/Layer 87.png"
+
 export default function DelightfulExperience() {
     const images = [
-        { src: "/src/assets/Layer 74.png", alt: "Bowl with egg and vegetables", overlay: { title: "Bowl with egg and vegetables", price: "$12" } },
-        { src: "/src/assets/Layer 75.png", alt: "Colorful salad on a plate", overlay: { title: "Colorful salad on a plate", price: "$12" } },
-        { src: "/src/assets/Layer 77.png", alt: "Italian source mushroom", overlay: { title: "ITALIAN SOURCE MUSHROOM", price: "$12" } },
-        { src: "/src/assets/Layer 80.png", alt: "Spring rolls", overlay: { title: "Spring rolls", price: "$12" } },
-        { src: "/src/assets/Layer 84.png", alt: "Sandwich with avocado", overlay: { title: "Sandwich with avocado", price: "$12" } },
-        { src: "/src/assets/Layer 85.png", alt: "Curry dish", overlay: { title: "Curry dish", price: "$12" } },
-        { src: "/src/assets/Layer 86.png", alt: "Various sauces", overlay: { title: "Various sauces", price: "$12" } },
-        { src: "/src/assets/Layer 87.png", alt: "Tacos on a plate", overlay: { title: "Tacos on a plate", price: "$12" } },
+        { src: image, alt: "Bowl with egg and vegetables", overlay: { title: "Bowl with egg and vegetables", price: "$12" } },
+        { src: image2, alt: "Colorful salad on a plate", overlay: { title: "Colorful salad on a plate", price: "$12" } },
+        { src: image3, alt: "Italian source mushroom", overlay: { title: "ITALIAN SOURCE MUSHROOM", price: "$12" } },
+        { src: image4, alt: "Spring rolls", overlay: { title: "Spring rolls", price: "$12" } },
+        { src: image5, alt: "Sandwich with avocado", overlay: { title: "Sandwich with avocado", price: "$12" } },
+        { src: image6, alt: "Curry dish", overlay: { title: "Curry dish", price: "$12" } },
+        { src: image7, alt: "Various sauces", overlay: { title: "Various sauces", price: "$12" } },
+        { src: image8, alt: "Tacos on a plate", overlay: { title: "Tacos on a plate", price: "$12" } },
     ]
 
     return (

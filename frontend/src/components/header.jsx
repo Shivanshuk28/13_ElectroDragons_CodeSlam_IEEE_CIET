@@ -1,9 +1,10 @@
+import image from "/src/assets/Layer 95.png"
 export default function Header() {
     return (
         <div className="z-10">
             <header className=" text-black flex">
                 <div className="absolute rotate-45 -translate-y-36 bg-[#e7a331] p-32 max-w-24 max-h-24">
-                    <img className="-rotate-45 max-w-24 max-h-24" src="src/assets/Layer 95.png" alt="" />
+                    <img className="-rotate-45 max-w-24 max-h-24" src={image} alt="" />
                 </div>
                 <div className="bg-white container mx-auto px-4 py-2 flex flex-row-reverse justify-between items-center">
                     <div className="flex items-center space-x-4">

@@ -1,6 +1,4 @@
-import React from 'react';
 import Image1 from '/src/assets/Layer 71 copy.png';
-import Image2 from '/src/assets/Layer 71 copy.png';
 
 export default function AboutUs() {
     return (
@@ -14,24 +12,36 @@ export default function AboutUs() {
                             className="w-full h-full object-cover border-4 border-white shadow-lg"
                         />
                     </div>
-                    <div className="w-64 h-64 md:w-80 md:h-80 absolute top-8 left-8 z-0 transform rotate-6 shadow-xl">
+                    <div className="w-64 h-64 md:w-80 md:h-80 absolute top-8 left-8 z-0 transform rotate-6 ">
                         <img
-                            src={Image2}
+                            src={Image1}
                             alt="Restaurant interior view 2"
                             className="w-full h-full object-cover border-4 border-white shadow-lg"
                         />
                     </div>
                 </div>
                 <div className="md:w-1/2 md:pl-12">
-                    <h3 className="text-3xl font-script pacifico-regular text-[#e7a331]">About us</h3>
-                    <p className="text-lg text-gray-700 mb-4">
-                        Welcome to our restaurant! We are dedicated to providing you with the best dining experience possible. Our chefs use only the freshest ingredients to create delicious and innovative dishes that will tantalize your taste buds.
+                    <h3 className="text-3xl font-script text-orange-500 mb-2">About us</h3>
+                    <h2 className="text-4xl font-bold mb-4">WE ARE TASTY</h2>
+                    <p className="mb-6 text-gray-600">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stan
+                        dard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. It has survived not only five centuries, but also the leap into electronic typeset-
+                        ting,standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
                     </p>
-                    <p className="text-lg text-gray-700">
-                        Whether you're here for a casual meal with friends or a special occasion, we strive to make every visit memorable. Thank you for choosing us, and we look forward to serving you!
-                    </p>
+                    <button className="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition duration-300">
+                        Click here
+                    </button>
                 </div>
             </div>
+            <div className="absolute bottom-0 right-0 w-32 h-32 md:w-48 md:h-48">
+                <img
+                    src="/placeholder.svg?height=200&width=200"
+                    alt="Fresh vegetables and chili peppers"
+                    className="w-full h-full object-cover"
+                />
+            </div>
         </div>
-    );
+    )
 }

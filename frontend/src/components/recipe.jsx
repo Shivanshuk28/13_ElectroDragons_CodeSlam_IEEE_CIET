@@ -1,7 +1,7 @@
-
+import image from "/src/assets/Layer 78.png"
 export default function Recipes() {
     return (
-        <div className="relative min-h-screen bg-cover bg-center py-16" style={{ backgroundImage: "url('src/assets/Layer 78.png')" }}>
+        <div className="relative min-h-screen bg-cover bg-center py-16" style={{ backgroundImage: `url(${image})` }}>
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="flex flex-col md:flex-row align-middle justify-center">
